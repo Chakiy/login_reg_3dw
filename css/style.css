@@ -1,1 +1,227 @@
+/* Reser */
+
 @import url(./reset.css);
+
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+
+
+
+/* Body */
+
+body { 
+    font-family: 'Telex', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #5C5C5C;
+    background-color: #B1D9DB;
+}
+
+
+
+/* Enter */
+
+
+
+.enter {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+/* 3d */
+
+
+.intro {
+
+    position: relative;
+    z-index: 10;
+    
+
+}
+.logo {
+    padding-bottom: 42px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.object {
+
+    max-width: 509px;
+    margin-left: 53px;
+}
+
+.object::after {
+
+    display: block;
+    z-index: 3px;
+    content: url("../img/header/3d.png");
+}
+
+
+.heading {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+
+
+/* Create Account */
+
+.user {
+    position: relative;
+    max-width: 916px;
+    width: 100%;
+    background-color: rgb(247 247 247 / 90%);
+    border-radius: 62px;
+    margin: 35px;
+    padding: 130px 200px;
+}
+
+
+
+.language {
+    position: absolute;
+    font-size: 22px;
+    font-style: normal;
+    top: 0;
+    right: 0;
+    color: #A1A1A1;
+    margin: 40px 80px;
+
+}
+
+.language::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -30px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+    border-top: 10px solid #A1A1A1;
+    
+    transform: translateY(-50%);
+}
+
+
+.create_account {
+  
+}
+.acount_heading {
+    /* display: flex;
+    justify-content: space-between; */
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    font-family: "Telex", sans-serif;
+    font-size: 16px;
+    color: #5C5C5C;
+    border: 1px solid #D8D3D3 ;
+    border-radius: 8px;
+    padding: 10px 10px;
+  
+}
+
+.btn_img {
+    margin-right: 10px;
+}
+
+
+/* OR */
+
+.or {
+    font-size: 23px ;
+    text-transform: uppercase;
+    text-align: center;
+    color: #797979;
+    margin: 60px auto 40px;
+}
+
+.or::after, .or::before {
+    content: "-";
+    padding: 0 20px;
+}
+
+
+/* Form */
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    
+    font-size: 19px;
+    color: #5C5C5C;
+    letter-spacing: 0.08em;
+    margin-bottom: 52px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-bottom: 1px solid #C4C4C4;
+    
+    outline-color: #A7CCCe;
+
+
+    width: 100%;
+}
+
+
+
+.password_div {
+    position: relative;
+    width: 100%;
+}
+
+
+.hidden_img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    transform: translateY(100%);
+    cursor: pointer;
+}
+
+
+.create {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 65px;
+    color: #fff;
+    background-color: #A7CCCe;
+    border-radius: 4px;
+}
+
+
+.no_acc {
+    /* margin-top: 40px; */
+    font-size: 20px;
+    letter-spacing: 0.08em;
+}
+
+.green_text {
+    color: #A7CCCe;
+}

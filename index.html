@@ -5,7 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Html Init</title>
+    <title>Login And Registration</title>
   </head>
-  <body></body>
+  <body>
+    <div class="enter">
+      <div class="intro">
+        <div class="logo">
+          <img src="./img/header/logo.svg" alt="logo" />
+        </div>
+        <div class="object">
+          <h1 class="heading">
+            Find 3D Objects, Mockups and Illustrations here.
+          </h1>
+        </div>
+      </div>
+      <div class="user">
+        <div class="language">English (UK)</div>
+        <div class="create_account">
+          <h2 class="acount_heading">Create Account</h2>
+          <div class="buttons">
+            <a href="#" class="btn">
+              <img class="btn_img" src="./img/header/google.png" alt="google" />
+              <p>Sign up with Google</p>
+            </a>
+            <a href="#" class="btn">
+              <img class="btn_img" src="./img/header/fb.png" alt="facebook" />
+
+              <p>Sign up with Facebook</p>
+            </a>
+          </div>
+          <p class="or">or</p>
+          <form class="login" action="">
+            <label for="full_name"></label>
+            <input
+              type="text"
+              id="full_name"
+              name="full_name"
+              placeholder="Full Name"
+            />
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+            <div class="password_div">
+              <label for="pass"></label>
+              <input
+                type="password"
+                id="pass"
+                name="pass"
+                placeholder="Password"
+              />
+              <img
+                class="hidden_img"
+                src="./img/header/blind.svg"
+                alt="password hidding"
+              />
+            </div>
+            <input type="submit" class="create" value="Create Account" />
+          </form>
+          <p class="no_acc">
+            Already have an account? <a href="#" class="green_text">Log in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
